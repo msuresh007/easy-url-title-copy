@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Easy Copy URL & Title",
+    "version": "1.0",
+    "description": "Easily copies URL and Title to clipboard",
+    "permissions": ["activeTab", "scripting", "clipboardWrite"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": {
+        "16": "easyurltitle16.png",
+        "48": "easyurltitle48.png",
+        "128": "easyurltitle128.png"
+      }
+    }
+  }
+  
